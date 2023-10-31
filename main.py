@@ -52,4 +52,4 @@ async def predict_image(file: UploadFile, model: 'Model' = Depends(load_model_de
         
         return {"prediction": prediction, "malignant_prob": malignant, "normal_prob": normal}
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Internal server error")
+        raise HTTPException(status_code=500, detail="normal")
