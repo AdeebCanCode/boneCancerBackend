@@ -5,4 +5,4 @@ tensorflow-cpu
 keras
 pydantic
 python-multipart
-Pillow==8.3.2
+Pillow
