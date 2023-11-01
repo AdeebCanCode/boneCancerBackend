@@ -9,7 +9,7 @@ import os
 app = FastAPI()
 
 # Define the full path to the model file
-model_path = os.path.join(os.getcwd(), 'model_vgg19.h5')
+model_path = 'model_vgg19.h5'
 
 # Load your Keras model using a FastAPI dependency
 def load_model_dependency():
